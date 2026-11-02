@@ -140,9 +140,11 @@ docker build -t biooffset .
 docker run -p 8080:8080 biooffset
 ```
 
-O comando deve ser escrito dentro do diretório da API do projeto.
+O comando deve ser escrito dentro do diretório da API do projeto (biooffset).
 
 ### 2. Executando a Suíte de Testes com Maven
+
+Os comandos de teste devem ser executados no diretório do projeto de testes (biooffset-testes).
 ```bash
 # Executar todos os testes regressivos configurados no Runner
 mvn clean test
